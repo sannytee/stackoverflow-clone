@@ -1,0 +1,148 @@
+.bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5050;
+    background-color: #fff;
+    transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
+    height: 60px;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    border-top: 3px solid #f48024;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), 0 1px 4px rgba(0,0,0,0.05), 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo-img {
+    height: 30px;
+    margin-top: 15px;
+}
+
+body {
+    background-color: #fafafb;
+    color: #242729;
+}
+
+.acc-crea-info {
+    display: none;
+}
+
+.logo-img-link {
+    margin-left: 10px;
+}
+
+
+.hd-cont {
+    height: inherit;
+}
+
+.auth-btn {
+    position: relative;
+    display: inline-block;
+    padding: .8em;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: transparent;
+    outline: none;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.15384615;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    color: #0077cc;
+    height: 60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.auth-btn-fil {
+    color: #39739d;
+    background-color: #e1ecf4;
+    border-color: #7aa7c7;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.7);
+}
+
+.auth-btn-primary {
+    color: #fff;
+    background-color: #0095ff;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4);
+}
+
+.auth {
+    margin-right: 0.7rem ;
+}
+
+.auth > a {
+    margin-right: 0.15rem;
+}
+
+.acc-crea-text {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.acc-crea {
+    margin: 1rem;
+}
+
+.acc-crea-form {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-top: 0.7rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05),0 20px 48px rgba(0,0,0,0.05),0 1px 4px rgba(0,0,0,0.1);
+}
+
+.auth-shadow {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05),0 20px 48px rgba(0,0,0,0.05),0 1px 4px rgba(0,0,0,0.1);
+}
+
+.form-group > label {
+    color: #0c0d0e;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.acc-crea-login-link {
+    color: #0077cc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.acc-crea-login {
+    margin-top: 0.8rem;
+}
+
+@media only screen and (min-width: 820px) {
+    .acc-crea-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .acc-crea-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+
+    .acc-crea-info h1 {
+        font: inherit;
+        line-height: 1;
+        font-size: 2.1rem;
+    }
+
+    .svg {
+        color: #0095ff;
+        margin-right: 0.7rem;
+    }
+
+    .svg-icon {
+        fill: currentColor;
+    }
+
+    .icon-info {
+        margin: 3rem;
+    }
+}
